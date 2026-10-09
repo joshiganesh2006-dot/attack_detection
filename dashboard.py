@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 import joblib
@@ -160,4 +159,3 @@ if submitted:
 
     except Exception as error:
         st.error(f"Prediction failed: {error}")
-```
